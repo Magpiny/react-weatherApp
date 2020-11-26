@@ -1,5 +1,5 @@
 import React from 'react';
-import './showWeather';
+import './showWeather.css';
 
 
 function ShowWeather(props) {
@@ -21,12 +21,12 @@ function ShowWeather(props) {
               </span>
 
               <span className="cardsubtitle">
-                As of { new Date().toLocaleTimeString() }
-              </span> {" "} 
+                As of { new Date().toLocaleTimeString() } {" "}
+              </span>  
               <hi>{ Math.floor(data.main.temp ) }&#176; Celcius </hi>
 
               <span className="weather-main">{ data.weather[0].main }</span>
-              {"  "}
+              {"          "}
               <img src={ iconUrl } alt="weather-icon" className="weather-icon" srcSet="" height="30px" />
               <span className="weather-description"> {data.weather[0].description }</span>
             </div>
@@ -70,7 +70,7 @@ function ShowWeather(props) {
 
                   <tr>
                   <td><h6>Wind direction</h6></td>
-                    <td>{ data.wind.deg } &#37; </td>
+                    <td>{ data.wind.deg } &#176; </td>
                     
                   </tr>
 

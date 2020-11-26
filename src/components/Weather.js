@@ -49,7 +49,7 @@ function Weather() {
     }
     return (
         <div className="weather">
-            <span className="title">Weather App</span>
+            <span className="title"> <span style={{color:`green`}}>Weather</span> <span style={{color:`blue`}}>App</span> </span>
              <br /> <br />
 
       <form>
