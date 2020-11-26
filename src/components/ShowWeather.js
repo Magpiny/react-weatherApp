@@ -1,5 +1,5 @@
 import React from 'react';
-import './displayweather.css';
+import './showWeather';
 
 
 function ShowWeather(props) {

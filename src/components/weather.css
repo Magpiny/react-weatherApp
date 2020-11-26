@@ -1,9 +1,11 @@
 .weather {
+  background-color: lightsteelblue;
   margin-top: 20px;
   border: 3px dashed grey;
   border-radius: 20px;
   padding-bottom: 30px;
   width: max-content;
+  height: 80vh;
   padding: 0px 20px 20px 20px;
   margin-left: 25%;
 }
